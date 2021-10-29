@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Google Glass</title>
+        <link type="text/css" rel="stylesheet" href="_css/estilo.css"> <!--CHAMANDO O ARQUIVO CSS-->
+        <link type="text/css" rel="stylesheet" href="_css/media.css">
+    </head>
+    <script lang="javascript" src="_javascript/funcoes.js"></script>
+    <body>
+        <div id="interface">
+            <header id="cabecalho"><!--Cabecalho-->
+            <hgroup><!--Agrupar titulos, HIERARQUIA DE TITULOS-->
+            <h1>Google Glass</h1>
+            <h2>A revolução do Google está chegando</h2>
+            </hgroup>
+            
+            <img id="icone" src="_imagens/multimidia.png"/>
+
+        <nav id="menu">  
+            <h1>Menu Principal</h1>
+            <ul type="disc">
+                <li onmousemove="mudaFoto('_imagens/home.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="index.html">Home</a></li>
+                <li onmousemove="mudaFoto('_imagens/especificacoes.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="specs.html">Especificações</a></li>
+                <li onmousemove="mudaFoto('_imagens/fotos.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fotos.html">Fotos</a></li>
+                <li onmousemove="mudaFoto('_imagens/multimidia.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="multimidia.html">Multimídia</a></li>
+                <li onmousemove="mudaFoto('_imagens/contato.png')" onmouseout="mudaFoto('_imagens/multimidia.png')"><a href="fale-conosco.html">Fale conosco</a></li>
+            </ul>
+        </nav>    
+            </header>
+            <header id="cabecalho-artigo">
+                <hgroup>
+                <h3>Glass > Multimídia</h3>
+                <h1>Sons e videos</h1>
+                <h2>por Lucas Woibau</h2>
+                <h3 class="direita">Atualizado em 24/Setembro/2021</h3>
+                </hgroup>
+                </header>
+            <div id="tv-radio">
+                <audio id="musica" controls>
+                    <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+                    Desculpe, mas não foi possível carregar o audio.
+                </audio>
+                <video id="filme" controls poster="_imagens/video-mini03.jpg">
+                    <source src="_media/getting-started.mp4" type="video/mp4">
+                    Desculpe, mas não foi possível carregar o video.
+                </video>
+            </div>
+
+<footer id="rodape">
+    <p>Copyright&copy; 2021 - by Lucas Woibau<br>
+    <a href="https://www.linkedin.com/in/lucas-woibau-406487219/"target="blank">Linkedin</a> |
+    <a href="https://www.instagram.com/lucaswoibau7/" target="blank">Instagram</a></p>
+    </footer>
+</div>
+</body>
+</html>
